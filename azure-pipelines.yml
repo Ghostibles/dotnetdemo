@@ -11,7 +11,7 @@ pool:
 
 steps:
 - task: UseDotNet@2
-  name: 'define dotnet version'
+  displayName: : 'define dotnet version'
   inputs:
     packageType: sdk
     version: 5.0.x
